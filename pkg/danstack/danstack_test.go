@@ -1,8 +1,8 @@
 package danstack_test
 
 import (
-	"testing"
 	"github.com/danwhitford/danstack/pkg/danstack"
+	"testing"
 )
 
 func assertEqual(t *testing.T, expected, actual int) {

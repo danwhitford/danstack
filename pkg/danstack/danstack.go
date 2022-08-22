@@ -41,7 +41,8 @@ func (stack *DanStack[T]) Pop() (T, error) {
 }
 
 // Empty returns true is there are no items in
-// the stack.
+// the stack. Can be used to loop through
+// the stack (see example).
 func (stack DanStack[T]) Empty() bool {
 	return stack.top < 1
 }
